@@ -1,0 +1,25 @@
+/*!*****************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/style.css ***!
+  \*****************************************************************/
+:root {
+  --boxShadow: rgba(0, 0, 0, 0.5) 2px 3px 1px 1px;
+  --navColor: hsl(127, 68%, 24%);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #d34242;
+}
+
+.navbar {
+  width: auto;
+  height: 30px;
+  background-color: var(--navColor);
+  background-color: #c71a1a;
+}
+.title {
+  color: #c71a1a;
+}
+
